@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<link rel="stylesheet" href="assets/fontawesome/css/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="assets/bootstrap4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="Ben.css">
+
+<body>
+	<div class="container-fluid">	
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<div class="reg"><marquee><h1>Registration Page</h1></marquee></div>		
+			<form class="form-group" action="process.php" method="post" role="form">
+				<label><i class="fa fa-user"></i> Username</label>
+				<input type="text" name="U"  class="form-control" required/><br/>
+				<label><i class="fa fa-envelope"></i> Email</label>
+				<input type="email" name="E" class="form-control" required><br/>
+				<label><i class="fa fa-lock"></i> Password</label>
+				<input type="password" name="P" class="form-control" required/><br/>
+				<label><i class="fa fa-lock"></i> Repeat Password</label>
+				<input type="password" name="RP"  class="form-control" required/><br/>
+				<label><i class="fa fa-user-plus"></i> Firstname</label>
+				<input type="text" name="F"  class="form-control" required/><br/>
+				<label><i class="fa fa-user-plus"></i> Lastname</label>
+				<input type="text" name="L" class="form-control" required/><br/>
+				<label>Gender</label>
+				<i class="fa fa-male"></i> Male<input type="radio" name="Gender" value="male" checked>
+				<i class="fa fa-female"></i> Female<input type="radio" name="Gender" value="female"><br/>		
+				<label><i class="fa fa-calendar"></i> Date of Birth</label>
+				<input type="date" name="D" class="form-control" required/><br/>
+				<label><i class="fa fa-phone"></i> Phone Number</label>
+				<input type="number" name="PN" class="form-control" required/><br/>
+				<!-- <label>Upload image</label> <input type="file" name="pix" class="form-control" required /><br/> -->
+				<a href="view.php">View Users</a><br/>
+				<!-- <input type="submit"> --><button class="btn btn-success">Submit</button>
+			</form>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+	</div>
+</body>
+</html>

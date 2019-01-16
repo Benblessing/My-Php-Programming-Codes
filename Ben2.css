@@ -1,0 +1,92 @@
+.main{
+        height: 600px;
+        width: 300px;
+        border-radius: 40px;
+        background-color: white;
+        position: relative;
+        margin-top: 50px;
+        /* margin-left: 500px; */
+
+      }
+
+      .sec{
+        height: 500px;
+        width: 270px;
+        background-color: black;
+        margin-left: 15px;
+        position: absolute;
+        margin-top: 50px;
+        padding: 15px;
+      }
+
+      .hd1{
+        color: yellow;
+        text-align: center;
+        text-shadow: red;
+        font-size: 3em;
+        font-family: fantasy;
+        margin-bottom: 50px;
+        margin-top: 38px;
+      }
+
+      i{
+        color: white;
+        margin-left: 5px;
+
+      }
+      .parag{
+        color: white;
+        background-color: orange;
+        font-size: 13px;
+        text-align: center;
+        height: 30px;
+        margin-top : 125px;
+        width: 250px;
+      }
+      .btn{
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        border: solid 2px grey;
+        background-color: white;
+        position: relative;
+        margin-top:  5px;
+        margin-left: 100px;
+      }
+      a{
+        text-decoration: none;
+      }
+      input{
+        /* margin-left: 10px; */
+        height: 40px;
+        width: 190px;
+        border: none;
+        border-radius: 4px;
+        font-size: 12px;
+        color: white;
+        background-color: grey;
+
+      }
+      .btn2{
+        /* margin-left: 30px; */
+        height: 40px;
+        width: 230px;
+        background-color: grey;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 12px;
+      }
+      .p1{
+        margin-left: 10px;
+        color: white;
+        font-size: 12px;
+      }
+      ::placeholder{
+        color: white;
+      }
+      .bt2{
+        margin-left: 650px;
+        margin-top: 60px;
+        display: inline-block;
+      }
